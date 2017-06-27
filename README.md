@@ -16,5 +16,10 @@ A project for Udacity fullstack nanodegree creating a reporting tool that prints
 -Clone the repository https://github.com/udacity/fullstack-nanodegree-vm to download the virtual machine configuration.  
 -Start the virtual machine by running `vagrant up` from inside the vagrant directory and then `vagrant ssh` to log into the virtual machine.  
 -Inside the VM, change directory to `/vagrant/logs`  
--Download the data here: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip then unzip and place the file newsdata.sql in the logs directory
--Load the data by running `psql -d news -f newsdata.sql`
+-Download the data here: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip then unzip and place the file newsdata.sql in the logs directory  
+-Load the data by running `psql -d news -f newsdata.sql`  
+-Run the file analysis.py in the command line by running `python3 analysis.py`  
+
+# output
+
+The analysis.py file will create a report in the logs directory analysis.txt
